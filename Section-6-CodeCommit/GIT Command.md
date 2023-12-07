@@ -68,12 +68,13 @@ Add some text again
 git diff --staged
 ```
 ## NOTES
+```
 git diff View difference between Stage and Working Directory
 git diff --staged View difference between HEAD and Stage
 git diff HEAD View difference between HEAD and Working Directory
 enter image description here
 img src
-
+```
 
 ## Unstage
 
