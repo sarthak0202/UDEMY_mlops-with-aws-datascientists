@@ -1,3 +1,11 @@
+# MOve file from locall to EC2
+```
+https://medium.com/srcecde/copy-file-directory-to-from-ec2-using-scp-secure-copy-685c46636399#:~:text=To%20copy%20the%20file%20from,extention%20username@public_ipv4_dns:/remote_path
+
+scp -i "codedelpoy-dempo.pem"  -r /Users/sarthakv/Documents/codedeploy ubuntu@0.0.0.0:/home/ubuntu/
+
+scp -i codedelpoy-dempo.pem -r /Users/sarthakv/Documents/codedeploy ec2-user@54.81.118.145:/home/ec2-user
+```
 
 # Installing the CodeDeploy agent on EC2
 ```YAML
